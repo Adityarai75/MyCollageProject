@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="Stylesheet" href="/static/Style.css">
+</head>
+<body>
+    <div class="title">Rainfall prediction</div>
+    <div class="titlebar">
+        <ul class="narrow"  id="box">
+            <a class="narrow" href="{{url_for('Home')}}"><li id="Home">Home</li></a>
+            <a class="narrow" href="{{url_for('About')}}"><li id="About">About</li></a>
+            <a class="narrow" href="{{url_for('Source')}}"><li id="sources">Sources</li></a>
+            <a class="narrow" href="{{url_for('Weather_Forecasting')}}"><li id="dropmem">Weather_Forecasting</li></a>
+            <a class="narrow" href="{{url_for('Topics')}}"><li id="topics">Topics</li></a>
+            <a class="narrow" href="{{url_for('rainfall')}}"><li id="rainfall">Rainfall</li></a>
+        </ul>
+    </div>
+    <FORM action="{{ url_for('predict')}}" method="POST">
+        <div class="databox">
+            <div class="location inter">
+                <label for="state">Enter your location:-</label>
+                <input type="text" list="state" placeholder="Enter state name" name="state">
+                <datalist id="location">
+                    {% for state in states %}
+                    <option value="{{ item }}">
+                    {% endfor %}
+                </datalist>
+            </div>
+            <div class="yearbox inter" >
+                <label for="year">Enter year:-</label>
+                <select type="number" name="year" id="select" name="year">
+                    <option value="1" selected>enter year</option>
+                    <option value="2">2024</option>
+                    <option value="3">2014</option>
+                    <option value="3">2015</option>
+                    <option value="3">2016</option>
+                    <option value="3">2026</option>
+                    <option value="3">2018</option>
+                    <option value="3">2019</option>
+                    <option value="3">2020</option>
+                    <option value="3">2026</option>
+                    <option value="3">2022</option>
+                    <option value="3">1990</option>
+                </select>
+            </div>
+            <div class="button inter">
+                <button class="button" name="predict" onclick="openletdo()">predict</button>
+            </div>
+        </div>
+    </FORM>
+    <div class="output" id="letdo">
+        <img src="pickthesl.png" alt="output box">
+        <h1>{{prediction_text}}</h1>
+    </div>
+    <script>
+        let letdo = document.getElementById("letdo");
+        
+        function openletdo() {
+            letdo.classList.add(open-letdo)
+        }
+
+        function closeletdo() {
+            letdo.classList.remove(open-letdo)
+        }
+    </script>
+</body>
+</html>

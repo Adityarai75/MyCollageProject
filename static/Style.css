@@ -1,0 +1,420 @@
+*{
+    background-color: rgb(186, 131, 238);
+    margin: 2px;
+}
+.title{
+    width: 100%;
+    height: 120px;
+    background-image: url("Leonardo_Phoenix_A_moody_atmosphere_pervades_the_scene_with_th_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px 1px grey;
+    position: relative;
+    z-index: 1000;
+}
+.titlebar{
+    background-color: rgb(58, 64, 90);
+    width: 100%;
+    height: 50px;
+    
+}
+
+.narrow{
+    margin: 4px;
+    padding: 5px;
+    width: 99%;
+    height: 40px;
+    display:flex;
+    background-color: rgb(26, 44, 44);
+    border: 2px solid rgb(123, 15, 224);
+    justify-items: center;
+    justify-content: center;
+
+}
+
+#Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px red ;
+    background-color: rgb(26, 44, 44);
+
+}
+#About{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px red ;
+    background-color: rgb(26, 44, 44);
+    color: black;
+    
+    
+}
+#dropmem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px red ;
+    background-color: rgb(26, 44, 44);
+    color: black;
+ 
+}
+#topics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px red ;
+    background-color: rgb(26, 44, 44);
+    color: black;
+
+}
+#sources{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px red ;
+    background-color: rgb(26, 44, 44);
+    color: black;
+  
+}
+#rainfall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px red ;
+    background-color: rgb(26, 44, 44);
+
+}
+.databox{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-image: url("Leonardo_Phoenix_A_dramatic_and_moody_scene_set_against_a_dark_3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 90%;
+    justify-content: center;
+}
+.inter{
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    border: 4px solid rgb(101, 34, 233);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#select{
+    width: 220px;
+    height: 30px;
+    display: flex;
+    text-decoration:wavy;
+    justify-items: center;
+}
+.locate{
+    width: 200px;
+    height: 20px;
+    display: flex;
+    text-decoration:wavy;
+    justify-items: center;
+}
+.button{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: solid;
+    width: 115px;
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+    color: red;
+    transition: transform 0.3s ease;
+}
+.button{
+    transform: scale(1.2);
+}
+.output{
+    width: 400px;
+    background-color: #333;
+    border-radius: 6px;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    transition: transform 0.4s, top 0.4s;
+}
+.open-letdo{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+.output img{
+    width: 100px;
+    margin-top: -50%;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.output button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #4cabdf;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor:pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.noldi{
+    position: relative;
+  
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/*topic*/
+
+
+
+.frame {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    padding: 20px;
+    background-clip: padding-box;
+    border: 5px solid transparent;
+    background: url('chain-pattern1.png') repeat;
+    background-size: 999px 670px;
+    background-repeat: no-repeat;
+    background-position: 450px;
+    text-align: center;
+    line-height: 50px;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+.CARRYALL {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    background-color: transparent;
+    animation: sizin 0.6s ease-in-out;
+
+    
+}
+@keyframes sizin {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.CARRYALL.show-background {
+    background-color: lightblue;
+}
+
+
+.btnopen {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+.btnopen:hover{
+    transform: scale(1.2);
+}
+.tex{
+    background-color: lightblue;
+}
+
+#animatedBox {
+    display: none;
+    width: 770px;
+    height: 800px;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+    animation: dropDown 0.5s ease-in-out;
+    word-wrap: break-word;
+    
+}
+
+@keyframes dropDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes dropDown {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+/*about*/
+.title2{
+    padding-top: 60px;
+    font-size: 15vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.camper {
+      display: flex;
+      justify-content: center;
+      min-height: 100px;
+      margin: 0;
+      background-color: transparent;
+    }
+
+    .circle-container { 
+      display: flex;
+      gap: 100px;
+      
+    }
+
+    .circle {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+    }
+
+    .circle img {
+      width: 100%;
+      height: 100%;
+    }
+
+.mainboxi{
+        padding-bottom: 50px;
+        padding-top: 60px;
+        font-size: 10vh;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+.header1{
+    display: flex;
+    gap: 70px;
+}
+
+.square{
+    background-color: pi;
+    width: 310px;
+    height: 110px;
+    border:solid 7px grey;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+
+}
+pre{
+    font-size: 25px;
+    padding-right: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*rainfall*/
+#feedbackContainer {
+    margin-top: 20px;
+}
+#feedbackButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid white 5px;
+    border-radius: 29px;
+}
+#feedbackText {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: green;
+}
+#feedbackInput{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: white;
+
+}
