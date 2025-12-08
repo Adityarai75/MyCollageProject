@@ -1,0 +1,4 @@
+# CollageProject
+My final year Project for my BCA 2025 that make with my group. It's highly effected my interest in making project after making I get to understand that why people say that " making project is more important then studying theory"and I fully agreed it make able you to learn from your mistake and search many more new things for making your project I glade that I make it clear my concept of Python and machine learning like library of python and using python library in making machine learnning models also it help me in understanding that if get trapped in loop of error not finding a ways to come out then dont lost hope instead keep searching and keep faith on yourself I also been error and problems while doing it as my project use two thing state name and year to give output and i been trained on traning data on which it predict value for futur years ;
+
+
