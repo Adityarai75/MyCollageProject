@@ -1,8 +1,7 @@
 function getWeather() {
     const city = document.getElementById("cityInput").value;
-    const apiKey = "3e5658e401884ab781b132457251704";
-    const url = `http://api.weatherapi.com/v1/current.json?key=3e5658e401884ab781b132457251704&q=London&aqi=no=${city}&appid=${apiKey}&units=metric`;
-    
+    const apiKey = 
+   // const url = 
     fetch(url)
       .then(response => response.json())
       .then(data => {
